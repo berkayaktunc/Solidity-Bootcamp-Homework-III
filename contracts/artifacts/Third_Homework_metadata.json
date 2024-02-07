@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_approva",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_reject",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pass",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_total_vote_to_end",
+						"type": "uint256"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HomeworkThree.sol": "Third_Homework"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HomeworkThree.sol": {
+			"keccak256": "0xcd5ba19613fd82e5c952c5d26484d953806cb4dbe6345003526f680b7e09ba7f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0bebdc63d1fa5b9d7bf461da35a023efcc1d02dd817277c9327b57207fa39cb8",
+				"dweb:/ipfs/QmdadAc6osEUfKSy2hZF9gABpMz7hWFgq6nxLjYMRrEnE3"
+			]
+		}
+	},
+	"version": 1
+}
